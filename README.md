@@ -1,5 +1,5 @@
 # CPSC1519 Basic Starter Kit
 
-## Owner your name
+## Brandon Estrada
 
-alter this statement to indicate the usage of this repository
+iOS demo projects using Swift 5
