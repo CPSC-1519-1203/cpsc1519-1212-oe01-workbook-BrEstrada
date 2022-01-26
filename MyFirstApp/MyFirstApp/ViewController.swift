@@ -9,8 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+//    MARK: Properties
     @IBOutlet var labelResult:UILabel!
-    @IBOutlet weak var textMessage: UITextField!
+    @IBOutlet weak var textDisplay: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -27,9 +28,10 @@ class ViewController: UIViewController {
 //        view.addSubview(button)
     }
 
-
+//  MARK: Methods
     @IBAction func changeButton(_ sender: UIButton) {
-        labelResult.text = textMessage.text
+        labelResult.text = textDisplay.text?.uppercased()
+        print (labelResult.text!)
     }
 }
 
