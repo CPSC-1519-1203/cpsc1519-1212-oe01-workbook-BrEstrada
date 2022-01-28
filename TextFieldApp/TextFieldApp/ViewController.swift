@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var myTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -18,6 +20,13 @@ class ViewController: UIViewController {
         
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.dismissKeyboard))
         view.addGestureRecognizer(tap)
+        
+        myTextField.placeholder = "Email address here"
+        myTextField.textColor = UIColor.red
+        myTextField.font = UIFont(name: "Courier", size: 16)
+        myTextField.clearButtonMode = .whileEditing
+        
+        
     }
     
     @objc func dismissKeyboard() {
@@ -40,6 +49,9 @@ class ViewController: UIViewController {
             }
         }
 
-
+    @IBAction func displayPassword(_ sender: UIButton) {
+        myTextField.text = passwordTextField.text?.uppercased()
+    }
+    
 }
 

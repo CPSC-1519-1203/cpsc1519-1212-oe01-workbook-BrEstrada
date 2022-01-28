@@ -19,25 +19,41 @@
                             <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lO3-JT-5RO">
                                 <rect key="frame" x="159" y="798" width="97" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="send" textContentType="email"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DLS-bc-jpT">
                                 <rect key="frame" x="159" y="671" width="97" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="URL"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES" textContentType="password"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bYX-bl-3bd">
+                                <rect key="frame" x="174" y="579" width="67" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="displayPassword:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6aE-fQ-4K0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="DLS-bc-jpT" firstAttribute="trailing" secondItem="lO3-JT-5RO" secondAttribute="trailing" id="6XK-hT-J4c"/>
+                            <constraint firstItem="DLS-bc-jpT" firstAttribute="top" secondItem="bYX-bl-3bd" secondAttribute="bottom" constant="61" id="NVj-Nj-E8v"/>
                             <constraint firstItem="DLS-bc-jpT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OZx-CL-Wnj"/>
                             <constraint firstItem="DLS-bc-jpT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="627" id="T2n-FG-lZu"/>
+                            <constraint firstItem="bYX-bl-3bd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="174" id="V4n-0W-HX1"/>
                             <constraint firstItem="DLS-bc-jpT" firstAttribute="leading" secondItem="lO3-JT-5RO" secondAttribute="leading" id="cjK-1a-OUP"/>
                             <constraint firstItem="lO3-JT-5RO" firstAttribute="top" secondItem="DLS-bc-jpT" secondAttribute="bottom" constant="93" id="iDA-4S-bQx"/>
                             <constraint firstItem="DLS-bc-jpT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="159" id="nvS-G4-Fm9"/>
+                            <constraint firstItem="bYX-bl-3bd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="535" id="oCe-k2-Ags"/>
+                            <constraint firstItem="bYX-bl-3bd" firstAttribute="centerX" secondItem="DLS-bc-jpT" secondAttribute="centerX" id="vAv-r6-op9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="myTextField" destination="lO3-JT-5RO" id="aGe-Yv-VIE"/>
+                        <outlet property="passwordTextField" destination="DLS-bc-jpT" id="MSe-By-bii"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
