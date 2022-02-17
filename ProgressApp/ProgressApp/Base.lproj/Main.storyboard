@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ProgressApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="9BS-rn-sSy">
+                                <rect key="frame" x="185" y="362" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="x6f-72-2fN"/>
+                                </constraints>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9aj-iT-M6k">
+                                <rect key="frame" x="149" y="407" width="93" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <action selector="runButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ii2-IQ-sEe"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6pU-Yx-QEn">
+                                <rect key="frame" x="16" y="631" width="358" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="CbS-86-OYi">
+                                <rect key="frame" x="148" y="709" width="94" height="32"/>
+                                <connections>
+                                    <action selector="stepperChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="t3l-Xp-EBx"/>
+                                </connections>
+                            </stepper>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" misplaced="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qla-jD-Yke">
+                                <rect key="frame" x="34" y="676" width="323" height="4"/>
+                            </progressView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qla-jD-Yke" firstAttribute="centerX" secondItem="CbS-86-OYi" secondAttribute="centerX" id="2qy-dS-KJc"/>
+                            <constraint firstItem="9aj-iT-M6k" firstAttribute="centerX" secondItem="6pU-Yx-QEn" secondAttribute="centerX" id="5qU-0g-TdB"/>
+                            <constraint firstItem="9aj-iT-M6k" firstAttribute="trailing" secondItem="CbS-86-OYi" secondAttribute="trailing" id="8YW-dA-ago"/>
+                            <constraint firstItem="6pU-Yx-QEn" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Cm6-n4-2hw"/>
+                            <constraint firstItem="9BS-rn-sSy" firstAttribute="centerX" secondItem="9aj-iT-M6k" secondAttribute="centerX" id="DwL-8z-91o"/>
+                            <constraint firstItem="6pU-Yx-QEn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="EnT-oB-hsz"/>
+                            <constraint firstItem="CbS-86-OYi" firstAttribute="top" secondItem="qla-jD-Yke" secondAttribute="bottom" constant="29" id="IKO-0N-yyt"/>
+                            <constraint firstItem="9aj-iT-M6k" firstAttribute="top" secondItem="9BS-rn-sSy" secondAttribute="bottom" constant="25" id="JaV-Qp-KmP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CbS-86-OYi" secondAttribute="bottom" constant="69" id="W0G-UJ-vlp"/>
+                            <constraint firstItem="qla-jD-Yke" firstAttribute="top" secondItem="6pU-Yx-QEn" secondAttribute="bottom" constant="24" id="XBW-9I-ih9"/>
+                            <constraint firstItem="9aj-iT-M6k" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Zva-qe-PoC"/>
+                            <constraint firstItem="6pU-Yx-QEn" firstAttribute="centerX" secondItem="qla-jD-Yke" secondAttribute="centerX" id="i5H-SU-znf"/>
+                            <constraint firstItem="9aj-iT-M6k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="149" id="jDy-iF-mvP"/>
+                            <constraint firstItem="9BS-rn-sSy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="318" id="ulq-dK-qnX"/>
+                            <constraint firstItem="qla-jD-Yke" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="wYg-PD-0vb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityView" destination="9BS-rn-sSy" id="ThE-Qd-eZy"/>
+                        <outlet property="labelProgress" destination="6pU-Yx-QEn" id="yiy-5J-NDe"/>
+                        <outlet property="progressView" destination="qla-jD-Yke" id="SMN-Hx-OE2"/>
+                        <outlet property="stepperObject" destination="CbS-86-OYi" id="Wym-L2-6nO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.46153846153845" y="109.47867298578198"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
