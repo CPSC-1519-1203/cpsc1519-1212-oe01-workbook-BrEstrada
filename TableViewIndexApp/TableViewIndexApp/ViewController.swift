@@ -41,6 +41,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     reuseIdentifier: cellID)
             }
             cell?.textLabel?.text = petArray[indexPath.section][indexPath.row + 1]
+        
+            // change font size
+        cell?.textLabel?.font = UIFont.boldSystemFont(ofSize: 24)
+        
             return cell!
         }
     
