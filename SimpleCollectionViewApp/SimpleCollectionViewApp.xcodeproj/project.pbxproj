@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE9806FB27E4077D000C53F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9806FA27E4077D000C53F1 /* AppDelegate.swift */; };
-		EE9806FD27E4077D000C53F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9806FC27E4077D000C53F1 /* SceneDelegate.swift */; };
-		EE9806FF27E4077D000C53F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9806FE27E4077D000C53F1 /* ViewController.swift */; };
-		EE98070227E4077D000C53F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE98070027E4077D000C53F1 /* Main.storyboard */; };
-		EE98070427E4077F000C53F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE98070327E4077F000C53F1 /* Assets.xcassets */; };
-		EE98070727E4077F000C53F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE98070527E4077F000C53F1 /* LaunchScreen.storyboard */; };
-		EE98070F27E40CE7000C53F1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE98070E27E40CE7000C53F1 /* TableViewCell.swift */; };
+		EEE7601C27F5541B00F480EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE7601B27F5541B00F480EB /* AppDelegate.swift */; };
+		EEE7601E27F5541B00F480EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE7601D27F5541B00F480EB /* SceneDelegate.swift */; };
+		EEE7602027F5541B00F480EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE7601F27F5541B00F480EB /* ViewController.swift */; };
+		EEE7602327F5541B00F480EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE7602127F5541B00F480EB /* Main.storyboard */; };
+		EEE7602527F5541E00F480EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE7602427F5541E00F480EB /* Assets.xcassets */; };
+		EEE7602827F5541E00F480EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE7602627F5541E00F480EB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EE9806F727E4077D000C53F1 /* TableViewCellVisualApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewCellVisualApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE9806FA27E4077D000C53F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE9806FC27E4077D000C53F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE9806FE27E4077D000C53F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EE98070127E4077D000C53F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EE98070327E4077F000C53F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE98070627E4077F000C53F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EE98070827E4077F000C53F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE98070E27E40CE7000C53F1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		EEE7601827F5541B00F480EB /* SimpleCollectionViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCollectionViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE7601B27F5541B00F480EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEE7601D27F5541B00F480EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EEE7601F27F5541B00F480EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEE7602227F5541B00F480EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEE7602427F5541E00F480EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE7602727F5541E00F480EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEE7602927F5541E00F480EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EE9806F427E4077D000C53F1 /* Frameworks */ = {
+		EEE7601527F5541B00F480EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EE9806EE27E4077D000C53F1 = {
+		EEE7600F27F5541B00F480EB = {
 			isa = PBXGroup;
 			children = (
-				EE9806F927E4077D000C53F1 /* TableViewCellVisualApp */,
-				EE9806F827E4077D000C53F1 /* Products */,
+				EEE7601A27F5541B00F480EB /* SimpleCollectionViewApp */,
+				EEE7601927F5541B00F480EB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EE9806F827E4077D000C53F1 /* Products */ = {
+		EEE7601927F5541B00F480EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE9806F727E4077D000C53F1 /* TableViewCellVisualApp.app */,
+				EEE7601827F5541B00F480EB /* SimpleCollectionViewApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE9806F927E4077D000C53F1 /* TableViewCellVisualApp */ = {
+		EEE7601A27F5541B00F480EB /* SimpleCollectionViewApp */ = {
 			isa = PBXGroup;
 			children = (
-				EE9806FA27E4077D000C53F1 /* AppDelegate.swift */,
-				EE9806FC27E4077D000C53F1 /* SceneDelegate.swift */,
-				EE9806FE27E4077D000C53F1 /* ViewController.swift */,
-				EE98070027E4077D000C53F1 /* Main.storyboard */,
-				EE98070E27E40CE7000C53F1 /* TableViewCell.swift */,
-				EE98070327E4077F000C53F1 /* Assets.xcassets */,
-				EE98070527E4077F000C53F1 /* LaunchScreen.storyboard */,
-				EE98070827E4077F000C53F1 /* Info.plist */,
+				EEE7601B27F5541B00F480EB /* AppDelegate.swift */,
+				EEE7601D27F5541B00F480EB /* SceneDelegate.swift */,
+				EEE7601F27F5541B00F480EB /* ViewController.swift */,
+				EEE7602127F5541B00F480EB /* Main.storyboard */,
+				EEE7602427F5541E00F480EB /* Assets.xcassets */,
+				EEE7602627F5541E00F480EB /* LaunchScreen.storyboard */,
+				EEE7602927F5541E00F480EB /* Info.plist */,
 			);
-			path = TableViewCellVisualApp;
+			path = SimpleCollectionViewApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE9806F627E4077D000C53F1 /* TableViewCellVisualApp */ = {
+		EEE7601727F5541B00F480EB /* SimpleCollectionViewApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE98070B27E4077F000C53F1 /* Build configuration list for PBXNativeTarget "TableViewCellVisualApp" */;
+			buildConfigurationList = EEE7602C27F5541E00F480EB /* Build configuration list for PBXNativeTarget "SimpleCollectionViewApp" */;
 			buildPhases = (
-				EE9806F327E4077D000C53F1 /* Sources */,
-				EE9806F427E4077D000C53F1 /* Frameworks */,
-				EE9806F527E4077D000C53F1 /* Resources */,
+				EEE7601427F5541B00F480EB /* Sources */,
+				EEE7601527F5541B00F480EB /* Frameworks */,
+				EEE7601627F5541B00F480EB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TableViewCellVisualApp;
-			productName = TableViewCellVisualApp;
-			productReference = EE9806F727E4077D000C53F1 /* TableViewCellVisualApp.app */;
+			name = SimpleCollectionViewApp;
+			productName = SimpleCollectionViewApp;
+			productReference = EEE7601827F5541B00F480EB /* SimpleCollectionViewApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EE9806EF27E4077D000C53F1 /* Project object */ = {
+		EEE7601027F5541B00F480EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					EE9806F627E4077D000C53F1 = {
+					EEE7601727F5541B00F480EB = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
-			buildConfigurationList = EE9806F227E4077D000C53F1 /* Build configuration list for PBXProject "TableViewCellVisualApp" */;
+			buildConfigurationList = EEE7601327F5541B00F480EB /* Build configuration list for PBXProject "SimpleCollectionViewApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,56 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = EE9806EE27E4077D000C53F1;
-			productRefGroup = EE9806F827E4077D000C53F1 /* Products */;
+			mainGroup = EEE7600F27F5541B00F480EB;
+			productRefGroup = EEE7601927F5541B00F480EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE9806F627E4077D000C53F1 /* TableViewCellVisualApp */,
+				EEE7601727F5541B00F480EB /* SimpleCollectionViewApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EE9806F527E4077D000C53F1 /* Resources */ = {
+		EEE7601627F5541B00F480EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE98070727E4077F000C53F1 /* LaunchScreen.storyboard in Resources */,
-				EE98070427E4077F000C53F1 /* Assets.xcassets in Resources */,
-				EE98070227E4077D000C53F1 /* Main.storyboard in Resources */,
+				EEE7602827F5541E00F480EB /* LaunchScreen.storyboard in Resources */,
+				EEE7602527F5541E00F480EB /* Assets.xcassets in Resources */,
+				EEE7602327F5541B00F480EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EE9806F327E4077D000C53F1 /* Sources */ = {
+		EEE7601427F5541B00F480EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE9806FF27E4077D000C53F1 /* ViewController.swift in Sources */,
-				EE98070F27E40CE7000C53F1 /* TableViewCell.swift in Sources */,
-				EE9806FB27E4077D000C53F1 /* AppDelegate.swift in Sources */,
-				EE9806FD27E4077D000C53F1 /* SceneDelegate.swift in Sources */,
+				EEE7602027F5541B00F480EB /* ViewController.swift in Sources */,
+				EEE7601C27F5541B00F480EB /* AppDelegate.swift in Sources */,
+				EEE7601E27F5541B00F480EB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EE98070027E4077D000C53F1 /* Main.storyboard */ = {
+		EEE7602127F5541B00F480EB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EE98070127E4077D000C53F1 /* Base */,
+				EEE7602227F5541B00F480EB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EE98070527E4077F000C53F1 /* LaunchScreen.storyboard */ = {
+		EEE7602627F5541E00F480EB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EE98070627E4077F000C53F1 /* Base */,
+				EEE7602727F5541E00F480EB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EE98070927E4077F000C53F1 /* Debug */ = {
+		EEE7602A27F5541E00F480EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		EE98070A27E4077F000C53F1 /* Release */ = {
+		EEE7602B27F5541E00F480EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,7 +280,7 @@
 			};
 			name = Release;
 		};
-		EE98070C27E4077F000C53F1 /* Debug */ = {
+		EEE7602D27F5541E00F480EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -292,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TableViewCellVisualApp/Info.plist;
+				INFOPLIST_FILE = SimpleCollectionViewApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -303,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ca.nait.dmit.cpsc1519.bestrada2.TableViewCellVisualApp;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.nait.dmit.cpsc1519.bestrada2.SimpleCollectionViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -311,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		EE98070D27E4077F000C53F1 /* Release */ = {
+		EEE7602E27F5541E00F480EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -319,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TableViewCellVisualApp/Info.plist;
+				INFOPLIST_FILE = SimpleCollectionViewApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ca.nait.dmit.cpsc1519.bestrada2.TableViewCellVisualApp;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.nait.dmit.cpsc1519.bestrada2.SimpleCollectionViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE9806F227E4077D000C53F1 /* Build configuration list for PBXProject "TableViewCellVisualApp" */ = {
+		EEE7601327F5541B00F480EB /* Build configuration list for PBXProject "SimpleCollectionViewApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE98070927E4077F000C53F1 /* Debug */,
-				EE98070A27E4077F000C53F1 /* Release */,
+				EEE7602A27F5541E00F480EB /* Debug */,
+				EEE7602B27F5541E00F480EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE98070B27E4077F000C53F1 /* Build configuration list for PBXNativeTarget "TableViewCellVisualApp" */ = {
+		EEE7602C27F5541E00F480EB /* Build configuration list for PBXNativeTarget "SimpleCollectionViewApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE98070C27E4077F000C53F1 /* Debug */,
-				EE98070D27E4077F000C53F1 /* Release */,
+				EEE7602D27F5541E00F480EB /* Debug */,
+				EEE7602E27F5541E00F480EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EE9806EF27E4077D000C53F1 /* Project object */;
+	rootObject = EEE7601027F5541B00F480EB /* Project object */;
 }
